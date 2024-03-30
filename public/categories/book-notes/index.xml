@@ -13,35 +13,35 @@
       <link>http://localhost:1313/2023/12/bill-gates-speaks/</link>
       <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/2023/12/bill-gates-speaks/</guid>
-      <description>Awhile ago, I finished reading the book Bill Gates Speaks. Purchase it here.&#xA;One day while talking to some people about reading books and such, I became fascinated with how much Bill Gates reads. I watched a video on YouTube about his “Think Week” where he would take off to a cabin to read and think. One day I want to do the same.&#xA;Following my own curiosity about Bill Gates, I went to the library to check out books on Bill Gates called Bill Gates Speaks.</description>
+      <description>Awhile ago, I finished reading the book Bill Gates Speaks. Purchase it here.&#xA;One day while talking to some people about reading books and such, I became fascinated with how much Bill Gates reads. I watched a video on YouTube about his “Think Week” where he would take off to a cabin to read and think. One day I want to do the same.&#xA;Following my own curiosity about Bill Gates, I went to the library to check out books on Bill Gates called Bill Gates Speaks. I found some quotes that I thought were insightful.&#xA;“Maintaining focus is a key to success.</description>
     </item>
     <item>
       <title>Service and Message Definitions in GRPC</title>
       <link>http://localhost:1313/2023/11/service-and-message-definitions-in-grpc/</link>
       <pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/2023/11/service-and-message-definitions-in-grpc/</guid>
-      <description>The slow crawl through GRPC: Up and Running continues. You can purchase it here.&#xA;I honestly haven’t made a ton of progress because I’ve read and re-read the same few pages while doing the coding examples. However, I did get through most of chapter 2 which gives a very preliminary introduction to using Protobuf and gRPC. I have one more thing to do to finish it off which is running building and running the app (all done through the coding examples that they give, none done from my own creativity).</description>
+      <description>The slow crawl through GRPC: Up and Running continues. You can purchase it here.&#xA;I honestly haven’t made a ton of progress because I’ve read and re-read the same few pages while doing the coding examples. However, I did get through most of chapter 2 which gives a very preliminary introduction to using Protobuf and gRPC. I have one more thing to do to finish it off which is running building and running the app (all done through the coding examples that they give, none done from my own creativity).&#xA;One of the things that has thrown me for a loop while reading this is the order that they present information.</description>
     </item>
     <item>
       <title>Starting to learn gRPC</title>
       <link>http://localhost:1313/2023/11/starting-to-learn-grpc/</link>
       <pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/2023/11/starting-to-learn-grpc/</guid>
-      <description>I started reading gRPC Up and Running. Purchase it here.&#xA;I’ve finished the first two chapters of this book and my first impression is that it started out slow but quickly picked up pace and jumped right into the details. I still have a long ways to go before finishing the book but so far, I think I like it. I’ve dissected a small part of the first chapter and compiled some of my notes.</description>
+      <description>I started reading gRPC Up and Running. Purchase it here.&#xA;I’ve finished the first two chapters of this book and my first impression is that it started out slow but quickly picked up pace and jumped right into the details. I still have a long ways to go before finishing the book but so far, I think I like it. I’ve dissected a small part of the first chapter and compiled some of my notes.&#xA;The g in “gRPC” stands for something different in every release. I didn’t know this. I just assumed that it stood for Google. Very clever.</description>
     </item>
     <item>
       <title>Which question is more important?</title>
       <link>http://localhost:1313/2023/11/which-question-is-more-important/</link>
       <pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/2023/11/which-question-is-more-important/</guid>
-      <description>I&amp;rsquo;m in the middle of reading Seven Languages in Seven Weeks. Purchase it here.&#xA;“The question isn’t ‘What are we going to do?’ The question is ‘What are we not going to do?’” — Ferris Bueller&#xA;In an ever changing world where companies try to be innovative and progress in their business, the culture will certainly change as evolution happens. If you remain at a company for a significant length of time, you’ve probably seen this happen.</description>
+      <description>I&amp;rsquo;m in the middle of reading Seven Languages in Seven Weeks. Purchase it here.&#xA;“The question isn’t ‘What are we going to do?’ The question is ‘What are we not going to do?’” — Ferris Bueller&#xA;In an ever changing world where companies try to be innovative and progress in their business, the culture will certainly change as evolution happens. If you remain at a company for a significant length of time, you’ve probably seen this happen.&#xA;In my experience, these are some lessons I’ve learned:&#xA;Things will change. Process will change. Values will change. Priorities will change. People will change.</description>
     </item>
     <item>
       <title>Who is on your team?</title>
       <link>http://localhost:1313/2023/11/who-is-on-your-team/</link>
       <pubDate>Sat, 04 Nov 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/2023/11/who-is-on-your-team/</guid>
-      <description>I’ve been listening to Leading Without Authority on Audible. Purchase it here.&#xA;When the author mentions “team” here, he doesn’t mean organizational structure. Instead, he means who are the people that are relevant and can help you accomplish your goal. These are the people you want to build relationships with, get to know, and build trust with.&#xA;I can’t say that any of the ideas in this section were new to me.</description>
+      <description>I’ve been listening to Leading Without Authority on Audible. Purchase it here.&#xA;When the author mentions “team” here, he doesn’t mean organizational structure. Instead, he means who are the people that are relevant and can help you accomplish your goal. These are the people you want to build relationships with, get to know, and build trust with.&#xA;I can’t say that any of the ideas in this section were new to me. I learned a few years ago how important relationships were. I’ve also told other people that if you want to improve, you need to find a person who you respect and look up to that can be brutally honest with you with feedback on things you can improve.</description>
     </item>
   </channel>
 </rss>

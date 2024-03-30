@@ -1,4 +1,5 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Stephanie Gredell'
-theme = 'hugo-mini'
+theme = 'stephanie-gredell'
+summaryLength = 100

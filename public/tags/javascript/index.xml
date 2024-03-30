@@ -13,7 +13,7 @@
       <link>http://localhost:1313/2023/11/simple-analytics-with-css/</link>
       <pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/2023/11/simple-analytics-with-css/</guid>
-      <description>I’m always fascinated about what is achievable without Javascript. So when I was reading this article about how Bear Blog does analytics with CSS, I decided to do my own experimentation. The concept here is to use css to trigger certain endpoints by using properties that require loading an image (or something).&#xA;To do this, I spun up an ExpressJS app and created a simple endpoint that started out with just outputting certain params.</description>
+      <description>I’m always fascinated about what is achievable without Javascript. So when I was reading this article about how Bear Blog does analytics with CSS, I decided to do my own experimentation. The concept here is to use css to trigger certain endpoints by using properties that require loading an image (or something).&#xA;To do this, I spun up an ExpressJS app and created a simple endpoint that started out with just outputting certain params. I kept it simple in the beginning as I just needed a feedback mechanism for the requests my CSS was making. If I were to use this somewhere, I would need some sort of data store to persist data.</description>
     </item>
   </channel>
 </rss>
