@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leading-Without-Authority on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/leading-without-authority/</link>
+    <description>Recent content in Leading-Without-Authority on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/leading-without-authority/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Who is on your team?</title>
+      <link>http://localhost:1313/2023/11/who-is-on-your-team/</link>
+      <pubDate>Sat, 04 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2023/11/who-is-on-your-team/</guid>
+      <description>I’ve been listening to Leading Without Authority on Audible. Purchase it here.&#xA;When the author mentions “team” here, he doesn’t mean organizational structure. Instead, he means who are the people that are relevant and can help you accomplish your goal. These are the people you want to build relationships with, get to know, and build trust with.&#xA;I can’t say that any of the ideas in this section were new to me.</description>
+    </item>
+  </channel>
+</rss>

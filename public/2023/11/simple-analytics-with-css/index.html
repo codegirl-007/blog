@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>Simple analytics with CSS | My New Hugo Site</title>
+
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
+<meta name="viewport" content="width=device-width,minimum-scale=1">
+<meta name="description" content="I’m always fascinated about what is achievable without Javascript. So when I was reading this article about how Bear Blog does analytics with CSS, I decided to do my own experimentation. The concept here is to use css to trigger certain endpoints by using properties that require loading an image (or something).
+To do this, I spun up an ExpressJS app and created a simple endpoint that started out with just outputting certain params.">
+<meta name="generator" content="Hugo 0.124.1">
+
+
+  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+
+
+
+
+
+
+
+
+  </head>
+
+  <body>
+    <nav class="navigation">
+	
+		<a href="/"> <span class="arrow">←</span>Home</a>
+	
+	<a href="/posts">Archive</a>
+	<a href="/tags">Tags</a>
+	<a href="/about">About</a>
+
+	
+
+	
+</nav>
+
+
+    <main class="main">
+      
+
+<section id="single">
+    <h1 class="title">Simple analytics with CSS</h1>
+
+    <div class="tip">
+        <time datetime="2023-11-06 00:00:00 &#43;0000 UTC">Nov 6, 2023</time>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          465 words
+        </span>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          3 minute read
+        </span>
+    </div>
+
+    
+    
+
+
+    <div class="content">
+      <p>I’m always fascinated about what is achievable without Javascript. So when I was reading this article about <a href="https://herman.bearblog.dev/how-bear-does-analytics-with-css/" target="_blank" rel="noopener">how Bear Blog does analytics with CSS</a>, I decided to do my own experimentation. The concept here is to use css to trigger certain endpoints by using properties that require loading an image (or something).</p>
+<p>To do this, I spun up an ExpressJS app and created a simple endpoint that started out with just outputting certain params. I kept it simple in the beginning as I just needed a feedback mechanism for the requests my CSS was making. If I were to use this somewhere, I would need some sort of data store to persist data. But otherwise, it would be quite simple.</p>
+<p>The next step was to make the request look legitimate. I made myself a 1 pixel transparent dot to send back so that whatever image property I chose, the browser got this pixel back. Yes, this felt a bit old school to me but I gave myself some grace knowing I wasn’t hiding an image tag to load this dot.</p>
+<p>I first tested on my local dev environment and then I used my phone to see how it worked in a mobile environment.</p>
+<p><strong>Here are some of my learnings:</strong></p>
+<ul>
+<li>It’s great if all you need is some simple page views tracking and you’re not doing a single page app (though if you’re trying to avoid javascript, that wouldn’t be the case anyways).</li>
+<li>It has limited ability to do click tracking by leveraging the <code>:active</code> on most elements. I didn’t want to go with :hover because I wanted the same behavior on mobile and desktop. While <code>:hover</code> works for mobile taps, I don’t want tracking for anytime a mouse hover occurs on desktop.</li>
+<li>There was one downside to this method of tracking which is it’ll track each click/interaction the first time but since the browser has it loaded and cached, it won’t do it the second time. I know you can hack this with some javascript but I wanted to stay on the pure CSS route.</li>
+</ul>
+<p>The thing I enjoyed the most about this was that it was really going back to basics. In a world where rendering a whole page using Javascript is a common thing, it’s nice to be able to just do some basic simple things and achieve a lot more with greater simplicity. Will this solution work for everyone? Probably not. But will it work for a basic website that just needs to see basic trends? Likely.</p>
+<p>You can play around with the code I hacked around with by <a href="https://github.com/stephanie-gredell/css-analytics" target="_blank" rel="noopener">checking out this repo</a>. It went a bit further than what I described here but you can get the general idea if you wanted to build out your own analytics app in Node.</p>
+
+    </div>
+
+    
+        <div class="tags">
+            
+                <a href="http://localhost:1313/tags/analytics">analytics</a>
+            
+                <a href="http://localhost:1313/tags/css">css</a>
+            
+                <a href="http://localhost:1313/tags/javascript">javascript</a>
+            
+        </div>
+    
+    
+    
+
+</section>
+
+
+    </main>
+    
+    <footer id="footer">
+    
+
+    <div class="copyright">
+    
+       © Copyright 
+       2024 
+       <span class="split">
+        <svg fill="#bbbbbb" width="15" height="15" version="1.1" id="heart-15" xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 15 15">
+  <path d="M13.91,6.75c-1.17,2.25-4.3,5.31-6.07,6.94c-0.1903,0.1718-0.4797,0.1718-0.67,0C5.39,12.06,2.26,9,1.09,6.75&#xA;&#x9;C-1.48,1.8,5-1.5,7.5,3.45C10-1.5,16.48,1.8,13.91,6.75z"/>
+</svg>
+       </span>
+       
+    
+    </div>
+
+    
+      <div class="powerby">
+        Powered by <a href='http://www.gohugo.io/'>Hugo</a> Theme By <a href='https://github.com/nodejh/hugo-theme-mini'>nodejh</a>
+      </div>
+    
+</footer>
+
+
+
+  </body>
+</html>

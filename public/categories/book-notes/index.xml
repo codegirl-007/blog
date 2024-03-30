@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Book-Notes on My New Hugo Site</title>
+    <link>http://localhost:1313/categories/book-notes/</link>
+    <description>Recent content in Book-Notes on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Becoming a better software engineer</title>
-      <link>http://localhost:1313/2024/03/becoming-a-better-software-engineer/</link>
-      <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2024/03/becoming-a-better-software-engineer/</guid>
-      <description>I&amp;rsquo;ve did something I rarely ever do. I paid for lifetime access to Neetcode.io. It happened one late night while I was browsing Youtube. I stumbled on a video that showed a person going through his Data Structures and Algorithms course and they really sold me on doing the same.&#xA;So far, I&amp;rsquo;m really loving it. I&amp;rsquo;m slowly progressing through it and so far, the Leetcode problems haven&amp;rsquo;t been too bad at all (especially since Neetcode has video solutions explaining every step of the way).</description>
-    </item>
+    <lastBuildDate>Sat, 16 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/book-notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bill Gates Speaks</title>
       <link>http://localhost:1313/2023/12/bill-gates-speaks/</link>
@@ -44,25 +37,11 @@
       <description>I&amp;rsquo;m in the middle of reading Seven Languages in Seven Weeks. Purchase it here.&#xA;“The question isn’t ‘What are we going to do?’ The question is ‘What are we not going to do?’” — Ferris Bueller&#xA;In an ever changing world where companies try to be innovative and progress in their business, the culture will certainly change as evolution happens. If you remain at a company for a significant length of time, you’ve probably seen this happen.</description>
     </item>
     <item>
-      <title>Simple analytics with CSS</title>
-      <link>http://localhost:1313/2023/11/simple-analytics-with-css/</link>
-      <pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2023/11/simple-analytics-with-css/</guid>
-      <description>I’m always fascinated about what is achievable without Javascript. So when I was reading this article about how Bear Blog does analytics with CSS, I decided to do my own experimentation. The concept here is to use css to trigger certain endpoints by using properties that require loading an image (or something).&#xA;To do this, I spun up an ExpressJS app and created a simple endpoint that started out with just outputting certain params.</description>
-    </item>
-    <item>
       <title>Who is on your team?</title>
       <link>http://localhost:1313/2023/11/who-is-on-your-team/</link>
       <pubDate>Sat, 04 Nov 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/2023/11/who-is-on-your-team/</guid>
       <description>I’ve been listening to Leading Without Authority on Audible. Purchase it here.&#xA;When the author mentions “team” here, he doesn’t mean organizational structure. Instead, he means who are the people that are relevant and can help you accomplish your goal. These are the people you want to build relationships with, get to know, and build trust with.&#xA;I can’t say that any of the ideas in this section were new to me.</description>
-    </item>
-    <item>
-      <title>The Beginning.</title>
-      <link>http://localhost:1313/2023/10/the-beginning/</link>
-      <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2023/10/the-beginning/</guid>
-      <description>Dun dun dun&amp;hellip;</description>
     </item>
   </channel>
 </rss>

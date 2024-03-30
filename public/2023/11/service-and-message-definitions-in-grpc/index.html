@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>Service and Message Definitions in GRPC | My New Hugo Site</title>
+
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
+<meta name="viewport" content="width=device-width,minimum-scale=1">
+<meta name="description" content="The slow crawl through GRPC: Up and Running continues. You can purchase it here.
+I honestly haven’t made a ton of progress because I’ve read and re-read the same few pages while doing the coding examples. However, I did get through most of chapter 2 which gives a very preliminary introduction to using Protobuf and gRPC. I have one more thing to do to finish it off which is running building and running the app (all done through the coding examples that they give, none done from my own creativity).">
+<meta name="generator" content="Hugo 0.124.1">
+
+
+  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+
+
+
+
+
+
+
+
+  </head>
+
+  <body>
+    <nav class="navigation">
+	
+		<a href="/"> <span class="arrow">←</span>Home</a>
+	
+	<a href="/posts">Archive</a>
+	<a href="/tags">Tags</a>
+	<a href="/about">About</a>
+
+	
+
+	
+</nav>
+
+
+    <main class="main">
+      
+
+<section id="single">
+    <h1 class="title">Service and Message Definitions in GRPC</h1>
+
+    <div class="tip">
+        <time datetime="2023-11-27 00:00:00 &#43;0000 UTC">Nov 27, 2023</time>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          564 words
+        </span>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          3 minute read
+        </span>
+    </div>
+
+    
+    
+
+
+    <div class="content">
+      <p>The slow crawl through <em>GRPC: Up and Running</em> continues. <a href="https://www.amazon.com/gRPC-Running-Building-Applications-Kubernetes/dp/1492058335" target="_blank" rel="noopener">You can purchase it here</a>.</p>
+<p>I honestly haven’t made a ton of progress because I’ve read and re-read the same few pages while doing the coding examples. However, I did get through most of chapter 2 which gives a very preliminary introduction to using Protobuf and gRPC. I have one more thing to do to finish it off which is running building and running the app (all done through the coding examples that they give, none done from my own creativity).</p>
+<p>One of the things that has thrown me for a loop while reading this is the order that they present information. They went into some Java stuff to build out the client and then they went into setting up Gradle. As a person that barely knows Gradle (like just enough to get by on my day to day work), it would have been more helpful if they presented setting up the Gradle project before showing the code examples. Perhaps it’s just me.</p>
+<p>So, what have I learned? A lot. Here are some GRPC specific things. There was a ton that I thought was pretty “common sense” and carried over from my general programming knowledge that I didn’t note here.</p>
+<ul>
+<li>Service definitions is one of the first things you do and that is set up in the proto files. Once you define the definition and compile the proto files, it generates an interface where then you can define the implementation of each method.</li>
+<li>A service is a collection of methods that are exposed (and can be executed by the client).</li>
+<li>Alongside service definitions, you can also define message types. A message is the data structure that is exchanged between client and service. A message type contains fields (similar to an object) and each field is numbered so that the field can be uniquely identified.</li>
+<li>We can only have 1 input parameter per method and can only return one value (I knew this already but worth knowing that the same holds true in the GRPC world). If we need to pass multiple values, we need to define a message type and group all the values.</li>
+<li>You can import from another proto file if you need to use message types defined elsewhere.</li>
+<li>You can manually compile the proto file(s) using the protocol buffer compiler or leverage something like Gradle that has a Protobuf plugin that can do it when you run the build step.</li>
+</ul>
+<p>This is as far as I’ve really digested. I’ll cover the rest of chapter 2 once I’ve really digested it and executed the code. However, I’ve been trying to move slower through this book so I can really absorb what it has to offer.</p>
+<p>The side challenge of all this is deciding on the the tools I want to invest in. At my job, the tools to use are given. There are certain tools supported by the company that will facilitate getting the job done. However, for my own personal stuff, I always struggle between going to what is familiar vs something different. Going with the familiar means purchasing the same tools that I use at work. That works fine but if the whole point is to learn new things, that&rsquo;s not fulfilling the mission. Going with something completely different means that I&rsquo;m expanding my horizons and pushing my comfort zone out more.</p>
+
+    </div>
+
+    
+        <div class="tags">
+            
+                <a href="http://localhost:1313/tags/grpc">grpc</a>
+            
+        </div>
+    
+    
+    
+
+</section>
+
+
+    </main>
+    
+    <footer id="footer">
+    
+
+    <div class="copyright">
+    
+       © Copyright 
+       2024 
+       <span class="split">
+        <svg fill="#bbbbbb" width="15" height="15" version="1.1" id="heart-15" xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 15 15">
+  <path d="M13.91,6.75c-1.17,2.25-4.3,5.31-6.07,6.94c-0.1903,0.1718-0.4797,0.1718-0.67,0C5.39,12.06,2.26,9,1.09,6.75&#xA;&#x9;C-1.48,1.8,5-1.5,7.5,3.45C10-1.5,16.48,1.8,13.91,6.75z"/>
+</svg>
+       </span>
+       
+    
+    </div>
+
+    
+      <div class="powerby">
+        Powered by <a href='http://www.gohugo.io/'>Hugo</a> Theme By <a href='https://github.com/nodejh/hugo-theme-mini'>nodejh</a>
+      </div>
+    
+</footer>
+
+
+
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grpc on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/grpc/</link>
+    <description>Recent content in Grpc on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/grpc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Service and Message Definitions in GRPC</title>
+      <link>http://localhost:1313/2023/11/service-and-message-definitions-in-grpc/</link>
+      <pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2023/11/service-and-message-definitions-in-grpc/</guid>
+      <description>The slow crawl through GRPC: Up and Running continues. You can purchase it here.&#xA;I honestly haven’t made a ton of progress because I’ve read and re-read the same few pages while doing the coding examples. However, I did get through most of chapter 2 which gives a very preliminary introduction to using Protobuf and gRPC. I have one more thing to do to finish it off which is running building and running the app (all done through the coding examples that they give, none done from my own creativity).</description>
+    </item>
+    <item>
+      <title>Starting to learn gRPC</title>
+      <link>http://localhost:1313/2023/11/starting-to-learn-grpc/</link>
+      <pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2023/11/starting-to-learn-grpc/</guid>
+      <description>I started reading gRPC Up and Running. Purchase it here.&#xA;I’ve finished the first two chapters of this book and my first impression is that it started out slow but quickly picked up pace and jumped right into the details. I still have a long ways to go before finishing the book but so far, I think I like it. I’ve dissected a small part of the first chapter and compiled some of my notes.</description>
+    </item>
+  </channel>
+</rss>

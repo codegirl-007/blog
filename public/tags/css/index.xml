@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Css on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/css/</link>
+    <description>Recent content in Css on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simple analytics with CSS</title>
+      <link>http://localhost:1313/2023/11/simple-analytics-with-css/</link>
+      <pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2023/11/simple-analytics-with-css/</guid>
+      <description>I’m always fascinated about what is achievable without Javascript. So when I was reading this article about how Bear Blog does analytics with CSS, I decided to do my own experimentation. The concept here is to use css to trigger certain endpoints by using properties that require loading an image (or something).&#xA;To do this, I spun up an ExpressJS app and created a simple endpoint that started out with just outputting certain params.</description>
+    </item>
+  </channel>
+</rss>
